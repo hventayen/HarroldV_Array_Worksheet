@@ -39,7 +39,7 @@ for(i = 0; i < arr.length; i++){
 console.log("Using a for Loop");
 for(i = 0; i < arr.length; i++){
     arr[i].toUpperCase();
-    console.log(arr[i]);
+    console.log(arr[i].toUpperCase());
 }
 console.log("Counting Specific Items");
 var count = 0;
@@ -66,12 +66,12 @@ for(i = 0; i < cart.length; i++){
 console.log(cart.length);
 console.log("Reverse the Order");
 let numbers = [1, 2, 3, 4, 5];
-for(i = 0; i < numbers.length; i++){
-    cart.push(numbers[i]);
-    cart.pop(numbers[i]);
+let reverse = []
+for(var i = arr.length - 0; i >= 0; i--){
+    reverse.push(numbers[i]);
 }
 for(i = 0; i < numbers.length; i++){
-    console.log(numbers[i]);
+    console.log(reverse[i]);
 }
 
 //Part 5
