@@ -53,9 +53,9 @@ console.log(count);
 //Part 4
 console.log("Build a Shopping Cart");
 let cart = [];
-cart.push();
-cart.push();
-cart.push();
+cart.push("eggs");
+cart.push("bacon");
+cart.push("cheese");
 for(i = 0; i < cart.length; i++){
     console.log(cart[i]);
 }
